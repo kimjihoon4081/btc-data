@@ -1,34 +1,34 @@
 {
  "schema": "btc-perp-snapshot/2",
  "collector_version": "1.6",
- "generated_at_kst": "2026-11-23 11:01:08",
- "generated_at_utc": "2026-11-23T02:01:08Z",
- "generated_at_ms": 1795399268792,
- "fetch_started_kst": "2026-11-23 11:01:05",
- "fetch_duration_ms": 3539,
+ "generated_at_kst": "2026-11-23 12:01:08",
+ "generated_at_utc": "2026-11-23T03:01:08Z",
+ "generated_at_ms": 1795402868842,
+ "fetch_started_kst": "2026-11-23 12:01:05",
+ "fetch_duration_ms": 3579,
  "status": "ok",
  "exchanges_ok": ["binance", "bybit", "okx"],
  "error_count": 0,
  "core_error_count": 0,
  "digest": {
   "price": {
-   "binance_last": 60864.5,
-   "last_time_kst": "2026-11-23 11:01:00",
-   "last_index_gap_pct": -0.032,
-   "change_24h_pct": 1.216,
+   "binance_last": 60649.9,
+   "last_time_kst": "2026-11-23 12:01:02",
+   "last_index_gap_pct": -0.0257,
+   "change_24h_pct": 1.937,
    "range_24h": [58746.1, 61647.9],
    "range_7d": [55126.7, 65679.2]
   },
   "timeframes": {
-   "5m": {"trend": "혼조", "close": 60843.9, "ema20": 61019.8, "ema50": 61018.9, "ema200": 60642.5, "rsi": 41.8, "adx": 14.8, "vol_x": 0.89, "atr": 158.6, "atr_pct": 0.261},
-   "15m": {"trend": "혼조", "close": 60843.9, "ema20": 61015.8, "ema50": 60847.3, "ema200": 60391.9, "rsi": 44.7, "adx": 27.9, "vol_x": 1.01, "atr": 252.9, "atr_pct": 0.416},
-   "1h": {"trend": "상승", "close": 60843.9, "ema20": 60707.4, "ema50": 60426.8, "ema200": 62925.2, "rsi": 54.5, "adx": 30.4, "vol_x": 0.8, "atr": 524.9, "atr_pct": 0.863},
+   "5m": {"trend": "하락", "close": 60588.1, "ema20": 60745.6, "ema50": 60877.3, "ema200": 60632.8, "rsi": 40.1, "adx": 24.5, "vol_x": 0.6, "atr": 161.0, "atr_pct": 0.266},
+   "15m": {"trend": "혼조", "close": 60588.1, "ema20": 60896.5, "ema50": 60819.7, "ema200": 60403.3, "rsi": 37.9, "adx": 24.0, "vol_x": 1.24, "atr": 256.6, "atr_pct": 0.423},
+   "1h": {"trend": "혼조", "close": 60588.1, "ema20": 60696.0, "ema50": 60433.1, "ema200": 62898.2, "rsi": 50.4, "adx": 29.1, "vol_x": 1.13, "atr": 525.7, "atr_pct": 0.868},
    "4h": {"trend": "혼조", "close": 61236.9, "ema20": 60662.1, "ema50": 63066.2, "ema200": 72302.8, "rsi": 50.5, "adx": 43.2, "vol_x": 0.39, "atr": 1383.2, "atr_pct": 2.259},
    "1d": {"trend": "하락", "close": 61236.9, "ema20": 67853.9, "ema50": 73445.4, "ema200": 73071.7, "rsi": 26.6, "adx": 49.1, "vol_x": 0.98, "atr": 3033.1, "atr_pct": 4.953},
    "1w": {"trend": "하락", "close": 61236.9, "ema20": 74202.4, "ema50": 77493.7, "ema200": null, "rsi": 35.4, "adx": 24.6, "vol_x": 1.84, "atr": 7033.5, "atr_pct": 11.486}
   },
   "regime": {
-   "단타": {"label": "추세장", "adx14_1h": 30.4, "trend_1h": "상승", "rule": "1h ADX14 ≥ 25 이고 1h 추세 상승/하락이면 추세장, 아니면 횡보장"}
+   "단타": {"label": "횡보장", "adx14_1h": 29.1, "trend_1h": "혼조", "rule": "1h ADX14 ≥ 25 이고 1h 추세 상승/하락이면 추세장, 아니면 횡보장"}
   },
   "table": {
    "단타": {
@@ -38,12 +38,12 @@
       {
        "d": 0,
        "t": "혼조 · 200선 위",
-       "detail": {"close": 60843.9, "ema20": 61015.8, "ema50": 60847.3, "ema200": 60391.9}
+       "detail": {"close": 60588.1, "ema20": 60896.5, "ema50": 60819.7, "ema200": 60403.3}
       },
       {
-       "d": 1,
-       "t": "상승 · 200선 아래",
-       "detail": {"close": 60843.9, "ema20": 60707.4, "ema50": 60426.8, "ema200": 62925.2}
+       "d": 0,
+       "t": "혼조 · 200선 아래",
+       "detail": {"close": 60588.1, "ema20": 60696.0, "ema50": 60433.1, "ema200": 62898.2}
       },
       {
        "d": 0,
@@ -57,8 +57,8 @@
        "t": "가격↓·OI→",
        "detail": {
         "window": "1시간",
-        "price_pct": -0.58,
-        "oi_pct": {"binance": -0.21, "bybit": 0.09, "okx": -0.1}
+        "price_pct": -0.42,
+        "oi_pct": {"binance": -0.71, "bybit": 0.25, "okx": -0.13}
        }
       },
       {
@@ -66,8 +66,8 @@
        "t": "가격↓·OI→",
        "detail": {
         "window": "4시간",
-        "price_pct": -0.14,
-        "oi_pct": {"binance": -0.17, "bybit": 0.1, "okx": 0.66}
+        "price_pct": -0.82,
+        "oi_pct": {"binance": -0.5, "bybit": 0.28, "okx": -0.16}
        }
       },
       {
@@ -82,14 +82,14 @@
      ],
      "흐름": [
       {
-       "d": -1,
-       "t": "매도 우위",
-       "detail": {"window": "1시간", "futures": 0.4574, "spot": 0.477}
+       "d": 0,
+       "t": "엇갈림",
+       "detail": {"window": "1시간", "futures": 0.4781, "spot": 0.5036}
       },
       {
        "d": 0,
        "t": "엇갈림",
-       "detail": {"window": "4시간", "futures": 0.4772, "spot": 0.512}
+       "detail": {"window": "4시간", "futures": 0.4775, "spot": 0.5155}
       },
       {
        "d": 0,
@@ -100,13 +100,13 @@
      "거래량": [
       {
        "d": 0,
-       "t": "1.0배",
-       "detail": {"ratio": 1.01, "candle": "2026-11-23 10:45"}
+       "t": "1.2배",
+       "detail": {"ratio": 1.24, "candle": "2026-11-23 11:45"}
       },
       {
        "d": 0,
-       "t": "0.8배",
-       "detail": {"ratio": 0.8, "candle": "2026-11-23 10:00"}
+       "t": "1.1배",
+       "detail": {"ratio": 1.13, "candle": "2026-11-23 11:00"}
       },
       {
        "d": 0,
@@ -123,12 +123,12 @@
       {
        "d": 0,
        "t": "없음",
-       "detail": {"volume_ratio": 0.95, "oi_pct": -0.08, "candle": "2026-11-23 10:30"}
+       "detail": {"volume_ratio": 1.24, "oi_pct": -0.05, "candle": "2026-11-23 11:45"}
       },
       {
        "d": 0,
        "t": "없음",
-       "detail": {"volume_ratio": 0.8, "oi_pct": -0.16, "candle": "2026-11-23 10:00"}
+       "detail": {"volume_ratio": 1.13, "oi_pct": -0.71, "candle": "2026-11-23 11:00"}
       },
       {
        "d": 0,
@@ -139,56 +139,56 @@
      "범위": [
       {
        "d": 0,
-       "t": "36%",
-       "detail": {"low": 60541.6, "high": 61448.8, "position_pct": 35.6}
+       "t": "27%",
+       "detail": {"low": 60351.2, "high": 61448.8, "position_pct": 27.2}
       },
       {
        "d": 0,
-       "t": "73%",
-       "detail": {"low": 58746.1, "high": 61647.9, "position_pct": 73.0}
+       "t": "66%",
+       "detail": {"low": 58746.1, "high": 61647.9, "position_pct": 65.6}
       },
       {
        "d": 0,
-       "t": "64%",
-       "detail": {"low": 55126.7, "high": 64056.0, "position_pct": 64.3}
+       "t": "62%",
+       "detail": {"low": 55126.7, "high": 64056.0, "position_pct": 61.9}
       }
      ],
      "RSI": [
-      {"d": 0, "t": "45"},
-      {"d": 0, "t": "54"},
+      {"d": 0, "t": "38"},
+      {"d": 0, "t": "50"},
       {"d": 0, "t": "50"}
      ],
      "코인베이스": [
       {
        "d": -1,
-       "t": "1시간 −0.030%",
-       "detail": {"value_pct": -0.0301}
+       "t": "1시간 −0.139%",
+       "detail": {"value_pct": -0.1393}
       },
       {
        "d": -1,
-       "t": "4시간 평균 −0.011% (30일 34%)",
-       "detail": {"value_pct": -0.0114}
+       "t": "4시간 평균 −0.039% (30일 9%)",
+       "detail": {"value_pct": -0.0387}
       },
       {
        "d": -1,
-       "t": "24시간 평균 −0.007%",
-       "detail": {"value_pct": -0.0066}
+       "t": "24시간 평균 −0.011%",
+       "detail": {"value_pct": -0.011}
       }
      ]
     },
-    "md": "| 항목 | 15m | 1h | 4h |\n|---|---|---|---|\n| 구조 (EMA20·50 + 200선) | ⚪ 혼조 · 200선 위 | 🟢 상승 · 200선 아래 | ⚪ 혼조 · 200선 아래 |\n| 가격+OI (최근 4봉) | ⚪ 가격↓·OI→ (가격 −0.6% · OI BN −0.2 · BY +0.1 · OK −0.1%) | ⚪ 가격↓·OI→ (가격 −0.1% · OI BN −0.2 · BY +0.1 · OK +0.7%) | ⚪ 가격↑·OI→ (가격 +3.5% · OI BN +0.2 · BY −4.0 · OK +0.4%) |\n| 흐름 (최근 4봉) | 🔴 매도 우위 (선물 0.46 · 현물 0.48) | ⚪ 엇갈림 (선물 0.48 · 현물 0.51) | ⚪ 엇갈림 (선물 0.51 · 현물 0.53) |\n| 거래량 (직전 봉) | ⚪ 1.0배 | ⚪ 0.8배 | ⚪ 0.4배 |\n| CVD 다이버전스 (24봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 셋업 (직전 봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 범위 (최근 24봉) | ⚪ 36% | ⚪ 73% | ⚪ 64% |\n| RSI (14) | ⚪ 45 | ⚪ 54 | ⚪ 50 |\n| 코인베이스 (USDT 보정) | 🔴 1시간 −0.030% | 🔴 4시간 평균 −0.011% (30일 34%) | 🔴 24시간 평균 −0.007% |",
+    "md": "| 항목 | 15m | 1h | 4h |\n|---|---|---|---|\n| 구조 (EMA20·50 + 200선) | ⚪ 혼조 · 200선 위 | ⚪ 혼조 · 200선 아래 | ⚪ 혼조 · 200선 아래 |\n| 가격+OI (최근 4봉) | ⚪ 가격↓·OI→ (가격 −0.4% · OI BN −0.7 · BY +0.2 · OK −0.1%) | ⚪ 가격↓·OI→ (가격 −0.8% · OI BN −0.5 · BY +0.3 · OK −0.2%) | ⚪ 가격↑·OI→ (가격 +3.5% · OI BN +0.2 · BY −4.0 · OK +0.4%) |\n| 흐름 (최근 4봉) | ⚪ 엇갈림 (선물 0.48 · 현물 0.50) | ⚪ 엇갈림 (선물 0.48 · 현물 0.52) | ⚪ 엇갈림 (선물 0.51 · 현물 0.53) |\n| 거래량 (직전 봉) | ⚪ 1.2배 | ⚪ 1.1배 | ⚪ 0.4배 |\n| CVD 다이버전스 (24봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 셋업 (직전 봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 범위 (최근 24봉) | ⚪ 27% | ⚪ 66% | ⚪ 62% |\n| RSI (14) | ⚪ 38 | ⚪ 50 | ⚪ 50 |\n| 코인베이스 (USDT 보정) | 🔴 1시간 −0.139% | 🔴 4시간 평균 −0.039% (30일 9%) | 🔴 24시간 평균 −0.011% |",
     "conflicts": [],
-    "changes": ["15m 구조 🟢→⚪", "15m 흐름 ⚪→🔴", "15m CVD 다이버전스 🔴→⚪", "1h 범위 🔴→⚪"],
-    "changes_vs_kst": "2026-11-23 10:01:08"
+    "changes": ["1h 구조 🟢→⚪", "15m 흐름 🔴→⚪"],
+    "changes_vs_kst": "2026-11-23 11:01:08"
    },
    "스윙": {
     "cols": ["1h", "4h", "1d"],
     "rows": {
      "구조": [
       {
-       "d": 1,
-       "t": "상승 · 200선 아래",
-       "detail": {"close": 60843.9, "ema20": 60707.4, "ema50": 60426.8, "ema200": 62925.2}
+       "d": 0,
+       "t": "혼조 · 200선 아래",
+       "detail": {"close": 60588.1, "ema20": 60696.0, "ema50": 60433.1, "ema200": 62898.2}
       },
       {
        "d": 0,
@@ -204,11 +204,11 @@
      "가격+OI": [
       {
        "d": 0,
-       "t": "보합·OI→",
+       "t": "가격↓·OI→",
        "detail": {
         "window": "4시간",
-        "price_pct": -0.14,
-        "oi_pct": {"binance": -0.17, "bybit": 0.1, "okx": 0.66}
+        "price_pct": -0.82,
+        "oi_pct": {"binance": -0.5, "bybit": 0.28, "okx": -0.16}
        }
       },
       {
@@ -226,7 +226,7 @@
        "detail": {
         "window": "4일",
         "price_pct": -2.86,
-        "oi_pct": {"binance": -3.27, "bybit": -4.24, "okx": -4.63}
+        "oi_pct": {"binance": -3.27, "bybit": -4.24, "okx": -4.7}
        }
       }
      ],
@@ -234,7 +234,7 @@
       {
        "d": 0,
        "t": "엇갈림",
-       "detail": {"window": "4시간", "futures": 0.4772, "spot": 0.512}
+       "detail": {"window": "4시간", "futures": 0.4775, "spot": 0.5155}
       },
       {
        "d": 1,
@@ -250,8 +250,8 @@
      "거래량": [
       {
        "d": 0,
-       "t": "0.8배",
-       "detail": {"ratio": 0.8, "candle": "2026-11-23 10:00"}
+       "t": "1.1배",
+       "detail": {"ratio": 1.13, "candle": "2026-11-23 11:00"}
       },
       {
        "d": 0,
@@ -273,7 +273,7 @@
       {
        "d": 0,
        "t": "없음",
-       "detail": {"volume_ratio": 0.8, "oi_pct": -0.16, "candle": "2026-11-23 10:00"}
+       "detail": {"volume_ratio": 1.13, "oi_pct": -0.71, "candle": "2026-11-23 11:00"}
       },
       {
        "d": 0,
@@ -289,53 +289,53 @@
      "범위": [
       {
        "d": 0,
-       "t": "73%",
-       "detail": {"low": 58746.1, "high": 61647.9, "position_pct": 73.0}
+       "t": "66%",
+       "detail": {"low": 58746.1, "high": 61647.9, "position_pct": 65.6}
       },
       {
        "d": 0,
-       "t": "64%",
-       "detail": {"low": 55126.7, "high": 64056.0, "position_pct": 64.3}
+       "t": "62%",
+       "detail": {"low": 55126.7, "high": 64056.0, "position_pct": 61.9}
       },
       {
        "d": 0,
-       "t": "22%",
-       "detail": {"low": 55126.7, "high": 81188.0, "position_pct": 22.0}
+       "t": "21%",
+       "detail": {"low": 55126.7, "high": 81188.0, "position_pct": 21.2}
       }
      ],
      "RSI": [
-      {"d": 0, "t": "54"},
+      {"d": 0, "t": "50"},
       {"d": 0, "t": "50"},
       {"d": 1, "t": "27"}
      ],
      "코인베이스": [
       {
        "d": -1,
-       "t": "1시간 −0.030%",
-       "detail": {"value_pct": -0.0301}
+       "t": "1시간 −0.139%",
+       "detail": {"value_pct": -0.1393}
       },
       {
        "d": -1,
-       "t": "4시간 평균 −0.011% (30일 34%)",
-       "detail": {"value_pct": -0.0114}
+       "t": "4시간 평균 −0.039% (30일 9%)",
+       "detail": {"value_pct": -0.0387}
       },
       {
        "d": -1,
-       "t": "24시간 평균 −0.007%",
-       "detail": {"value_pct": -0.0066}
+       "t": "24시간 평균 −0.011%",
+       "detail": {"value_pct": -0.011}
       }
      ]
     },
-    "md": "| 항목 | 1h | 4h | 1d |\n|---|---|---|---|\n| 구조 (EMA20·50 + 200선) | 🟢 상승 · 200선 아래 | ⚪ 혼조 · 200선 아래 | 🔴 하락 · 200선 아래 |\n| 가격+OI (최근 4봉) | ⚪ 보합·OI→ (가격 −0.1% · OI BN −0.2 · BY +0.1 · OK +0.7%) | ⚪ 가격↑·OI→ (가격 +3.5% · OI BN +0.2 · BY −4.0 · OK +0.4%) | ⚪ 가격↓·OI↓ (가격 −2.9% · OI BN −3.3 · BY −4.2 · OK −4.6%) |\n| 흐름 (최근 4봉) | ⚪ 엇갈림 (선물 0.48 · 현물 0.51) | 🟢 매수 우위 (선물 0.51 · 현물 0.53) | ⚪ 엇갈림 (선물 0.50 · 현물 0.47) |\n| 거래량 (직전 봉) | ⚪ 0.8배 | ⚪ 0.4배 | ⚪ 1.0배 |\n| CVD 다이버전스 (24봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 셋업 (직전 봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 범위 (최근 24봉) | ⚪ 73% | ⚪ 64% | ⚪ 22% |\n| RSI (14) | ⚪ 54 | ⚪ 50 | 🟢 27 |\n| 코인베이스 (USDT 보정) | 🔴 1시간 −0.030% | 🔴 4시간 평균 −0.011% (30일 34%) | 🔴 24시간 평균 −0.007% |",
-    "conflicts": ["구조: 🟢 1h 상승 · 200선 아래 ↔ 🔴 1d 하락 · 200선 아래"],
-    "changes": ["1h 범위 🔴→⚪"],
-    "changes_vs_kst": "2026-11-23 10:01:08"
+    "md": "| 항목 | 1h | 4h | 1d |\n|---|---|---|---|\n| 구조 (EMA20·50 + 200선) | ⚪ 혼조 · 200선 아래 | ⚪ 혼조 · 200선 아래 | 🔴 하락 · 200선 아래 |\n| 가격+OI (최근 4봉) | ⚪ 가격↓·OI→ (가격 −0.8% · OI BN −0.5 · BY +0.3 · OK −0.2%) | ⚪ 가격↑·OI→ (가격 +3.5% · OI BN +0.2 · BY −4.0 · OK +0.4%) | ⚪ 가격↓·OI↓ (가격 −2.9% · OI BN −3.3 · BY −4.2 · OK −4.7%) |\n| 흐름 (최근 4봉) | ⚪ 엇갈림 (선물 0.48 · 현물 0.52) | 🟢 매수 우위 (선물 0.51 · 현물 0.53) | ⚪ 엇갈림 (선물 0.50 · 현물 0.47) |\n| 거래량 (직전 봉) | ⚪ 1.1배 | ⚪ 0.4배 | ⚪ 1.0배 |\n| CVD 다이버전스 (24봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 셋업 (직전 봉) | ⚪ 없음 | ⚪ 없음 | ⚪ 없음 |\n| 범위 (최근 24봉) | ⚪ 66% | ⚪ 62% | ⚪ 21% |\n| RSI (14) | ⚪ 50 | ⚪ 50 | 🟢 27 |\n| 코인베이스 (USDT 보정) | 🔴 1시간 −0.139% | 🔴 4시간 평균 −0.039% (30일 9%) | 🔴 24시간 평균 −0.011% |",
+    "conflicts": [],
+    "changes": ["1h 구조 🟢→⚪"],
+    "changes_vs_kst": "2026-11-23 11:01:08"
    }
   },
   "funding_view": {
-   "current_pct": {"binance": -0.001434, "bybit": 0.001171, "okx": 0.001232},
+   "current_pct": {"binance": -0.000691, "bybit": 0.000965, "okx": 0.001709},
    "next_settle_kst": "2026-11-23 17:00:00",
-   "minutes_to_settle_from_collect": 359,
+   "minutes_to_settle_from_collect": 299,
    "sum_7d_pct": {"binance": 0.048786, "bybit": 0.033494, "okx": 0.006897},
    "long_ratio": {"d": 1, "long_pct": 66.62, "long_pct_24h_ago": 66.83, "pct_21d": 6.2},
    "단타": {
@@ -357,68 +357,68 @@
    }
   },
   "oi_change_pct": {
-   "15m": {"binance": -0.057, "bybit": -0.0715, "okx": -0.0547},
-   "1h": {"binance": -0.2092, "bybit": 0.0917, "okx": -0.1032},
-   "4h": {"binance": -0.1669, "bybit": 0.1046, "okx": 0.6583},
-   "24h": {"binance": 1.5881, "bybit": -0.0438, "okx": 0.4475}
+   "15m": {"binance": -0.0548, "bybit": 0.4766, "okx": 0.0347},
+   "1h": {"binance": -0.7084, "bybit": 0.2533, "okx": -0.1255},
+   "4h": {"binance": -0.496, "bybit": 0.2837, "okx": -0.1565},
+   "24h": {"binance": 1.3442, "bybit": -0.7915, "okx": -0.0854}
   },
   "oi_drop_condition": {
-   "met": true,
-   "exchanges_both_down": 2,
+   "met": false,
+   "exchanges_both_down": 1,
    "by_exchange": {
-    "binance": {"1h": -0.2092, "15m": -0.057, "both_down": true},
-    "bybit": {"1h": 0.0917, "15m": -0.0715, "both_down": false},
-    "okx": {"1h": -0.1032, "15m": -0.0547, "both_down": true}
+    "binance": {"1h": -0.7084, "15m": -0.0548, "both_down": true},
+    "bybit": {"1h": 0.2533, "15m": 0.4766, "both_down": false},
+    "okx": {"1h": -0.1255, "15m": 0.0347, "both_down": false}
    },
    "rule": "1h·15분 OI 모두 감소한 거래소가 3곳 중 2곳 이상"
   },
-  "coinbase_adjusted": {"basis": "USDT 보정, 완성 1시간봉 종가", "last_hour_kst": "2026-11-23 10:00", "usdt_usd": 0.99832, "v1h_pct": -0.0301, "avg4h_pct": -0.0114, "avg24h_pct": -0.0066, "avg4h_24h_ago_pct": -0.006, "avg4h_pct_30d": 34.4, "hours_used": 897},
-  "coinbase_combo": {"price_down_premium_up": false, "premium_change_24h_pctp": -0.0054, "price_change_24h_pct": 1.216},
+  "coinbase_adjusted": {"basis": "USDT 보정, 완성 1시간봉 종가", "last_hour_kst": "2026-11-23 11:00", "usdt_usd": 0.9984, "v1h_pct": -0.1393, "avg4h_pct": -0.0387, "avg24h_pct": -0.011, "avg4h_24h_ago_pct": -0.0079, "avg4h_pct_30d": 9.2, "hours_used": 897},
+  "coinbase_combo": {"price_down_premium_up": false, "premium_change_24h_pctp": -0.0308, "price_change_24h_pct": 1.937},
   "cvd_btc": {
-   "futures": {"last_1h": -590.94, "last_4h": -1254.86, "last_24h": 3088.24},
-   "spot": {"last_1h": -24.21, "last_4h": 68.75, "last_24h": 383.56}
+   "futures": {"last_1h": -423.33, "last_4h": -1500.31, "last_24h": 3706.24},
+   "spot": {"last_1h": 5.29, "last_4h": 93.9, "last_24h": 625.95}
   },
   "funding_pct": {
-   "predicted": {"binance": -0.001434, "bybit": 0.001171, "okx": 0.001232},
-   "predicted_8h": {"binance": -0.001434, "bybit": 0.001171, "okx": 0.001232},
+   "predicted": {"binance": -0.000691, "bybit": 0.000965, "okx": 0.001709},
+   "predicted_8h": {"binance": -0.000691, "bybit": 0.000965, "okx": 0.001709},
    "interval_hours": {"binance": 8.0, "bybit": 8.0, "okx": 8.0},
    "sum_7d": {"binance": 0.048786, "bybit": 0.033494, "okx": 0.006897},
    "next_settle_kst": "2026-11-23 17:00:00"
   },
-  "long_pct": {"binance_global": 66.62, "binance_global_24h_ago": 66.83, "binance_global_pct_21d": 6.2, "binance_top_position": 62.53, "bybit": 69.15, "okx": 66.47},
-  "premium_index_pct": -0.0446,
-  "premium_index_24h_ago_pct": -0.0379,
-  "basis_quarter_pct": 0.37,
-  "basis_quarter_24h_ago_pct": 0.38,
+  "long_pct": {"binance_global": 66.62, "binance_global_24h_ago": 66.83, "binance_global_pct_21d": 6.2, "binance_top_position": 63.17, "bybit": 68.88, "okx": 66.1},
+  "premium_index_pct": 0.0155,
+  "premium_index_24h_ago_pct": -0.0567,
+  "basis_quarter_pct": 0.38,
+  "basis_quarter_24h_ago_pct": 0.34,
   "orderbook": {
    "spread_bps": 0.016,
-   "depth_0.1%": {"bid_btc": 197.56, "ask_btc": 180.73, "imbalance": 0.044}
+   "depth_0.1%": {"bid_btc": 201.69, "ask_btc": 230.82, "imbalance": -0.067}
   },
   "levels": {
    "단타": {
-    "ref_price": 60864.5,
+    "ref_price": 60649.9,
     "tf": "1h",
-    "atr": 524.9,
-    "buffer": 262.4,
-    "resistance": [61413.0, 61647.9],
-    "support": [60570.1, 60511.0, 58746.1],
-    "near_levels": [60978.3],
-    "long": {"invalidation": 60307.7, "target": 61413.0, "target_basis": "가격대", "rr": 0.99, "target2": 61647.9, "rr2": 1.41, "rr_used": 0.99, "meets_rr": false},
-    "short": {"invalidation": 61675.4, "target": 60570.1, "target_basis": "가격대", "rr": 0.36, "target2": 60511.0, "rr2": 0.44, "rr_used": 0.36, "meets_rr": false},
+    "atr": 525.7,
+    "buffer": 262.9,
+    "resistance": [60978.3, 61413.0, 61647.9],
+    "support": [58746.1, 58649.7, 55126.7],
+    "near_levels": [60511.0, 60570.1],
+    "long": {"invalidation": 58483.2, "target": 60978.3, "target_basis": "가격대", "rr": 0.15, "target2": 61413.0, "rr2": 0.35, "rr_used": 0.15, "meets_rr": false},
+    "short": {"invalidation": 61241.2, "target": 58746.1, "target_basis": "가격대", "rr": 3.22, "target2": 58649.7, "rr2": 3.38, "rr_used": 3.22, "meets_rr": true},
     "rr_min": 2.0,
     "confirm_close": "1h"
    },
    "스윙": {
-    "ref_price": 60864.5,
+    "ref_price": 60649.9,
     "tf": "4h",
     "atr": 1383.2,
     "buffer": 691.6,
     "resistance": [61647.9, 62030.8, 63300.9],
     "support": [58746.1, 55126.7],
     "near_levels": [60978.3],
-    "long": {"invalidation": 58054.5, "target": 61647.9, "target_basis": "가격대", "rr": 0.28, "target2": 62030.8, "rr2": 0.42, "rr_after_funding": 0.28, "rr_used": 0.28, "meets_rr": false},
-    "short": {"invalidation": 62339.5, "target": 58746.1, "target_basis": "가격대", "rr": 1.44, "target2": 55126.7, "rr2": 3.89, "rr_after_funding": 1.44, "rr_used": 1.44, "meets_rr": false},
-    "funding_cost_note": "예상 펀딩 9회(약 3일) 기준 롱 비용 1.8 USDT(음수면 롱이 받음)",
+    "long": {"invalidation": 58054.5, "target": 61647.9, "target_basis": "가격대", "rr": 0.38, "target2": 62030.8, "rr2": 0.53, "rr_after_funding": 0.38, "rr_used": 0.38, "meets_rr": false},
+    "short": {"invalidation": 62339.5, "target": 58746.1, "target_basis": "가격대", "rr": 1.13, "target2": 55126.7, "rr2": 3.27, "rr_after_funding": 1.13, "rr_used": 1.13, "meets_rr": false},
+    "funding_cost_note": "예상 펀딩 9회(약 3일) 기준 롱 비용 3.6 USDT(음수면 롱이 받음)",
     "rr_min": 2.0,
     "confirm_close": "4h"
    }
@@ -446,35 +446,35 @@
   "not_included": "실제 청산액·청산 히트맵, ETF 자금 흐름, 온체인, 거시 지표는 이 스냅샷에 없음 — 별도 확인 필요"
  },
  "cross_exchange": {
-  "last_prices": {"binance": 60864.5, "bybit": 60849.3, "okx": 60854.9},
-  "max_last_spread_pct": 0.025,
-  "last_index_gap_pct": {"binance": -0.032, "bybit": -0.0522, "okx": -0.045},
-  "funding_predicted_8h_equiv_pct": {"binance": -0.001434, "bybit": 0.001171, "okx": 0.001232},
-  "oi_live_btc": {"binance": 93001.409, "bybit": 67884.609, "okx": 31701.708},
-  "oi_change_1h_pct": {"binance": -0.2092, "bybit": 0.0917, "okx": -0.1032},
-  "oi_change_4h_pct": {"binance": -0.1669, "bybit": 0.1046, "okx": 0.6583},
-  "oi_change_24h_pct": {"binance": 1.5881, "bybit": -0.0438, "okx": 0.4475}
+  "last_prices": {"binance": 60649.9, "bybit": 60637.1, "okx": 60637.8},
+  "max_last_spread_pct": 0.0211,
+  "last_index_gap_pct": {"binance": -0.0257, "bybit": -0.0403, "okx": -0.0369},
+  "funding_predicted_8h_equiv_pct": {"binance": -0.000691, "bybit": 0.000965, "okx": 0.001709},
+  "oi_live_btc": {"binance": 92321.349, "bybit": 68078.74, "okx": 31679.598},
+  "oi_change_1h_pct": {"binance": -0.7084, "bybit": 0.2533, "okx": -0.1255},
+  "oi_change_4h_pct": {"binance": -0.496, "bybit": 0.2837, "okx": -0.1565},
+  "oi_change_24h_pct": {"binance": 1.3442, "bybit": -0.7915, "okx": -0.0854}
  },
  "binance": {
   "contract": "Binance BTCUSDT USDT-M 무기한",
   "price_unit": "USDT",
   "oi_unit": "BTC",
   "price": {
-   "last": 60864.5,
-   "last_time_kst": "2026-11-23 11:01:00",
-   "mark": 60860.86074638,
-   "index": 60883.96478261,
-   "mark_index_time_kst": "2026-11-23 11:01:05",
-   "last_index_gap_pct": -0.032,
-   "change_24h_pct": 1.216,
+   "last": 60649.9,
+   "last_time_kst": "2026-11-23 12:01:02",
+   "mark": 60652.2238913,
+   "index": 60665.50086957,
+   "mark_index_time_kst": "2026-11-23 12:01:05",
+   "last_index_gap_pct": -0.0257,
+   "change_24h_pct": 1.937,
    "high_24h": 61647.9,
    "low_24h": 58746.1,
-   "quote_volume_24h_usdt": 12501136525.0
+   "quote_volume_24h_usdt": 12363042644.0
   },
   "funding": {
-   "predicted": {"rate_pct": -0.001434, "settles_at_kst": "2026-11-23 17:00:00"},
+   "predicted": {"rate_pct": -0.000691, "settles_at_kst": "2026-11-23 17:00:00"},
    "interval_hours": 8.0,
-   "predicted_8h_equiv_pct": -0.001434,
+   "predicted_8h_equiv_pct": -0.000691,
    "last_settled": [
     {"time_kst": "2026-11-23 09:00:00", "rate_pct": 0.002072},
     {"time_kst": "2026-11-23 01:00:00", "rate_pct": -0.000988},
@@ -509,65 +509,64 @@
    "settled_30d_pct": [0.003939, 0.003431, 0.00096, 0.009409, 0.006005, 0.008027, 0.001713, 0.007945, 0.01, 0.01, 0.008696, 0.01, 0.005373, 0.00789, 0.007984, 0.006216, 0.005306, 0.01, 0.003619, 0.004306, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.008758, 0.009118, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.002405, 0.01, 0.01, 0.01, 0.005491, 0.009043, 0.01, 0.001332, 0.001302, 0.005257, 0.007157, 0.00342, 0.00593, 0.01, 0.01, 0.01, 0.01, 0.005925, 0.007999, 0.008011, 0.006639, 0.003453, 0.00622, 0.008904, 0.01, 0.00127, 0.004045, 0.005972, 0.004461, 0.003872, 0.004667, 0.002303, -0.000247, -0.001265, 0.000717, 0.006177, -0.000569, -0.000124, 0.003565, 0.006014, 0.003132, 0.005963, 0.009412, 0.006781, 0.001785, 0.002034, 0.000706, 0.002551, -0.006069, 0.001925, 0.000922, -0.002696, 0.005476, -0.000988, 0.002072]
   },
   "open_interest": {
-   "live_btc": 93001.409,
-   "live_time_kst": "2026-11-23 11:00:59",
-   "history_reference": {"time_kst": "2026-11-23 10:55:00", "btc": 92968.384, "usd": 5654774066.0},
+   "live_btc": 92321.349,
+   "live_time_kst": "2026-11-23 12:00:59",
+   "history_reference": {"time_kst": "2026-11-23 12:00:00", "btc": 92336.019, "usd": 5595045670.0},
    "change": {
     "15m": {
-     "from_time_kst": "2026-11-23 10:40:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 11:45:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 15,
-     "from_btc": 93021.371,
-     "to_btc": 92968.384,
-     "change_btc": -52.987,
-     "change_pct": -0.057,
-     "price_from": 61029.7,
-     "price_to": 60831.4,
-     "price_change_pct": -0.3249,
-     "combo": "가격↓·OI↓"
+     "from_btc": 92386.626,
+     "to_btc": 92336.019,
+     "change_btc": -50.607,
+     "change_pct": -0.0548,
+     "price_from": 60530.7,
+     "price_to": 60588.1,
+     "price_change_pct": 0.0948,
+     "combo": "가격↑·OI↓"
     },
     "1h": {
-     "from_time_kst": "2026-11-23 09:55:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 11:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 60,
-     "from_btc": 93163.317,
-     "to_btc": 92968.384,
-     "change_btc": -194.933,
-     "change_pct": -0.2092,
-     "price_from": 61185.6,
-     "price_to": 60831.4,
-     "price_change_pct": -0.5789,
+     "from_btc": 92994.755,
+     "to_btc": 92336.019,
+     "change_btc": -658.736,
+     "change_pct": -0.7084,
+     "price_from": 60844.1,
+     "price_to": 60588.1,
+     "price_change_pct": -0.4207,
      "combo": "가격↓·OI↓"
     },
     "4h": {
-     "from_time_kst": "2026-11-23 06:55:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 08:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 240,
-     "from_btc": 93123.816,
-     "to_btc": 92968.384,
-     "change_btc": -155.432,
-     "change_pct": -0.1669,
-     "price_from": 60914.9,
-     "price_to": 60831.4,
-     "price_change_pct": -0.1371,
+     "from_btc": 92796.265,
+     "to_btc": 92336.019,
+     "change_btc": -460.246,
+     "change_pct": -0.496,
+     "price_from": 61086.0,
+     "price_to": 60588.1,
+     "price_change_pct": -0.8151,
      "combo": "가격↓·OI↓"
     },
     "24h": {
-     "from_time_kst": "2026-11-22 10:55:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-22 12:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 1440,
-     "from_btc": 91515.016,
-     "to_btc": 92968.384,
-     "change_btc": 1453.368,
-     "change_pct": 1.5881,
-     "price_from": 60130.0,
-     "price_to": 60831.4,
-     "price_change_pct": 1.1665,
+     "from_btc": 91111.262,
+     "to_btc": 92336.019,
+     "change_btc": 1224.757,
+     "change_pct": 1.3442,
+     "price_from": 59475.0,
+     "price_to": 60588.1,
+     "price_change_pct": 1.8715,
      "combo": "가격↑·OI↑"
     }
    },
    "series_1h": [
-    ["2026-11-22 11:00", 91517.6],
     ["2026-11-22 12:00", 91111.3],
     ["2026-11-22 13:00", 91277.0],
     ["2026-11-22 14:00", 91342.2],
@@ -590,7 +589,8 @@
     ["2026-11-23 07:00", 93103.5],
     ["2026-11-23 08:00", 92796.3],
     ["2026-11-23 09:00", 93145.7],
-    ["2026-11-23 10:00", 93113.0]
+    ["2026-11-23 10:00", 93113.0],
+    ["2026-11-23 11:00", 92994.8]
    ],
    "series_1d": [
     ["2026-10-25 09:00", 95166.3],
@@ -665,12 +665,11 @@
    "top_trader_position": {
     "basis": "상위 트레이더 포지션 규모 기준",
     "period": "1h",
-    "time_kst": "2026-11-23 11:00:00",
-    "long_pct": 62.53,
-    "short_pct": 37.47,
-    "ratio": 1.6686,
+    "time_kst": "2026-11-23 12:00:00",
+    "long_pct": 63.17,
+    "short_pct": 36.83,
+    "ratio": 1.7154,
     "series_24h": [
-     ["2026-11-22 12:00", 1.7563, 63.72],
      ["2026-11-22 13:00", 1.7662, 63.85],
      ["2026-11-22 14:00", 1.7718, 63.92],
      ["2026-11-22 15:00", 1.8116, 64.43],
@@ -693,33 +692,34 @@
      ["2026-11-23 08:00", 1.7178, 63.21],
      ["2026-11-23 09:00", 1.6768, 62.64],
      ["2026-11-23 10:00", 1.6689, 62.53],
-     ["2026-11-23 11:00", 1.6686, 62.53]
+     ["2026-11-23 11:00", 1.6686, 62.53],
+     ["2026-11-23 12:00", 1.7154, 63.17]
     ]
    }
   },
   "flow": {
-   "last_1h": {"closed_candles": 1, "from_kst": "2026-11-23 10:00", "to_kst": "2026-11-23 11:00", "delta_btc": -590.94, "taker_buy_ratio": 0.4574, "volume_btc": 6929.83},
-   "last_4h": {"closed_candles": 4, "from_kst": "2026-11-23 07:00", "to_kst": "2026-11-23 11:00", "delta_btc": -1254.86, "taker_buy_ratio": 0.4772, "volume_btc": 27539.07},
-   "last_24h": {"closed_candles": 24, "from_kst": "2026-11-22 11:00", "to_kst": "2026-11-23 11:00", "delta_btc": 3088.24, "taker_buy_ratio": 0.5075, "volume_btc": 206961.72},
-   "current_partial": {"open_time_kst": "2026-11-23 11:00", "minutes_elapsed": 1, "delta_btc": 38.11, "taker_buy_ratio": 0.6704, "volume_btc": 111.84}
+   "last_1h": {"closed_candles": 1, "from_kst": "2026-11-23 11:00", "to_kst": "2026-11-23 12:00", "delta_btc": -423.33, "taker_buy_ratio": 0.4781, "volume_btc": 9645.57},
+   "last_4h": {"closed_candles": 4, "from_kst": "2026-11-23 08:00", "to_kst": "2026-11-23 12:00", "delta_btc": -1500.31, "taker_buy_ratio": 0.4775, "volume_btc": 33325.48},
+   "last_24h": {"closed_candles": 24, "from_kst": "2026-11-22 12:00", "to_kst": "2026-11-23 12:00", "delta_btc": 3706.24, "taker_buy_ratio": 0.5091, "volume_btc": 204455.31},
+   "current_partial": {"open_time_kst": "2026-11-23 12:00", "minutes_elapsed": 1, "delta_btc": 83.15, "taker_buy_ratio": 0.7042, "volume_btc": 203.58}
   },
   "range_24h": {"high": 61647.9, "high_candle_kst": "2026-11-22 21:00", "low": 58746.1, "low_candle_kst": "2026-11-22 14:00", "candles": 24},
   "range_7d": {"high": 65679.2, "high_candle_kst": "2026-11-16 21:00", "low": 55126.7, "low_candle_kst": "2026-11-21 13:00", "candles": 42},
   "timeframes": {
    "5m": {
     "closed_candles_used": 299,
-    "last_closed": {"open_time_kst": "2026-11-23 10:55", "open": 60831.4, "high": 60893.4, "low": 60777.0, "close": 60843.9, "volume_btc": 524.695, "delta_btc": -65.289},
-    "trend": "혼조",
-    "ema20": 61019.8,
-    "ema50": 61018.9,
-    "ema200": 60642.5,
-    "rsi14": 41.8,
-    "rsi14_3bars_ago": 46.5,
-    "adx14": 14.8,
-    "atr14": 158.6,
-    "atr14_pct": 0.261,
-    "volume_ratio_20": 0.89,
-    "cvd_last_12_bars_btc": -590.9,
+    "last_closed": {"open_time_kst": "2026-11-23 11:55", "open": 60492.9, "high": 60600.0, "low": 60464.2, "close": 60588.1, "volume_btc": 416.915, "delta_btc": 44.623},
+    "trend": "하락",
+    "ema20": 60745.6,
+    "ema50": 60877.3,
+    "ema200": 60632.8,
+    "rsi14": 40.1,
+    "rsi14_3bars_ago": 34.0,
+    "adx14": 24.5,
+    "atr14": 161.0,
+    "atr14_pct": 0.266,
+    "volume_ratio_20": 0.6,
+    "cvd_last_12_bars_btc": -423.3,
     "swings": {
      "highs": [
       {"time_kst": "2026-11-23 09:30", "price": 61448.8},
@@ -727,26 +727,14 @@
       {"time_kst": "2026-11-23 10:30", "price": 61241.6}
      ],
      "lows": [
-      {"time_kst": "2026-11-23 09:05", "price": 61103.7},
-      {"time_kst": "2026-11-23 09:35", "price": 61023.9},
-      {"time_kst": "2026-11-23 10:05", "price": 60890.2}
+      {"time_kst": "2026-11-23 10:05", "price": 60890.2},
+      {"time_kst": "2026-11-23 11:05", "price": 60673.9},
+      {"time_kst": "2026-11-23 11:40", "price": 60351.2}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 11:00", "high": 60888.0, "low": 60812.0, "close": 60864.5, "volume_btc": 111.845, "delta_btc": 38.107},
-    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:50", "bars_back": 2, "volume_ratio_20": 0.73, "price_change_pct": -0.058, "oi_change_pct": 0.023},
+    "current": {"open_time_kst": "2026-11-23 12:00", "high": 60658.3, "low": 60577.1, "close": 60639.4, "volume_btc": 212.669, "delta_btc": 85.469},
+    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:55", "bars_back": 1, "volume_ratio_20": 0.6, "price_change_pct": 0.157, "oi_change_pct": -0.0111},
     "candles": [
-     {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61289.1, "low": 61115.3, "close": 61195.6, "volume_btc": 811.951, "taker_buy_btc": 308.663, "delta_btc": -194.625, "closed": true},
-     {"open_time_kst": "2026-11-23 09:05", "open": 61195.6, "high": 61227.4, "low": 61103.7, "close": 61192.8, "volume_btc": 560.633, "taker_buy_btc": 233.621, "delta_btc": -93.391, "closed": true},
-     {"open_time_kst": "2026-11-23 09:10", "open": 61192.7, "high": 61261.0, "low": 61124.8, "close": 61226.7, "volume_btc": 317.69, "taker_buy_btc": 149.626, "delta_btc": -18.438, "closed": true},
-     {"open_time_kst": "2026-11-23 09:15", "open": 61226.8, "high": 61250.0, "low": 61131.0, "close": 61224.3, "volume_btc": 320.528, "taker_buy_btc": 131.411, "delta_btc": -57.706, "closed": true},
-     {"open_time_kst": "2026-11-23 09:20", "open": 61224.3, "high": 61318.5, "low": 61176.7, "close": 61207.9, "volume_btc": 488.251, "taker_buy_btc": 213.698, "delta_btc": -60.855, "closed": true},
-     {"open_time_kst": "2026-11-23 09:25", "open": 61207.9, "high": 61233.0, "low": 61110.7, "close": 61186.1, "volume_btc": 408.889, "taker_buy_btc": 206.343, "delta_btc": 3.797, "closed": true},
-     {"open_time_kst": "2026-11-23 09:30", "open": 61186.2, "high": 61448.8, "low": 61186.1, "close": 61313.0, "volume_btc": 1237.49, "taker_buy_btc": 715.926, "delta_btc": 194.362, "closed": true},
-     {"open_time_kst": "2026-11-23 09:35", "open": 61313.0, "high": 61313.0, "low": 61023.9, "close": 61059.9, "volume_btc": 921.398, "taker_buy_btc": 343.347, "delta_btc": -234.704, "closed": true},
-     {"open_time_kst": "2026-11-23 09:40", "open": 61060.0, "high": 61242.1, "low": 61060.0, "close": 61124.4, "volume_btc": 641.353, "taker_buy_btc": 327.534, "delta_btc": 13.715, "closed": true},
-     {"open_time_kst": "2026-11-23 09:45", "open": 61124.4, "high": 61139.0, "low": 61026.1, "close": 61049.9, "volume_btc": 465.654, "taker_buy_btc": 172.0, "delta_btc": -121.654, "closed": true},
-     {"open_time_kst": "2026-11-23 09:50", "open": 61050.0, "high": 61220.0, "low": 61043.7, "close": 61185.8, "volume_btc": 437.228, "taker_buy_btc": 215.262, "delta_btc": -6.704, "closed": true},
-     {"open_time_kst": "2026-11-23 09:55", "open": 61185.6, "high": 61320.0, "low": 61169.7, "close": 61315.7, "volume_btc": 466.471, "taker_buy_btc": 220.056, "delta_btc": -26.359, "closed": true},
      {"open_time_kst": "2026-11-23 10:00", "open": 61315.8, "high": 61327.8, "low": 61001.0, "close": 61008.7, "volume_btc": 787.044, "taker_buy_btc": 375.007, "delta_btc": -37.03, "closed": true},
      {"open_time_kst": "2026-11-23 10:05", "open": 61008.8, "high": 61028.9, "low": 60890.2, "close": 60926.3, "volume_btc": 999.064, "taker_buy_btc": 406.504, "delta_btc": -186.056, "closed": true},
      {"open_time_kst": "2026-11-23 10:10", "open": 60926.3, "high": 61084.0, "low": 60906.1, "close": 61073.0, "volume_btc": 411.56, "taker_buy_btc": 230.756, "delta_btc": 49.952, "closed": true},
@@ -759,23 +747,35 @@
      {"open_time_kst": "2026-11-23 10:45", "open": 60990.5, "high": 60990.5, "low": 60837.3, "close": 60866.4, "volume_btc": 685.148, "taker_buy_btc": 228.169, "delta_btc": -228.81, "closed": true},
      {"open_time_kst": "2026-11-23 10:50", "open": 60866.4, "high": 60900.0, "low": 60810.1, "close": 60831.4, "volume_btc": 424.612, "taker_buy_btc": 215.208, "delta_btc": 5.804, "closed": true},
      {"open_time_kst": "2026-11-23 10:55", "open": 60831.4, "high": 60893.4, "low": 60777.0, "close": 60843.9, "volume_btc": 524.695, "taker_buy_btc": 229.703, "delta_btc": -65.289, "closed": true},
-     {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60812.0, "close": 60864.5, "volume_btc": 111.845, "taker_buy_btc": 74.976, "delta_btc": 38.107, "closed": false}
+     {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60812.0, "close": 60814.1, "volume_btc": 284.502, "taker_buy_btc": 157.859, "delta_btc": 31.216, "closed": true},
+     {"open_time_kst": "2026-11-23 11:05", "open": 60814.1, "high": 60846.0, "low": 60673.9, "close": 60686.6, "volume_btc": 722.646, "taker_buy_btc": 288.017, "delta_btc": -146.612, "closed": true},
+     {"open_time_kst": "2026-11-23 11:10", "open": 60686.7, "high": 60835.0, "low": 60682.1, "close": 60823.2, "volume_btc": 727.694, "taker_buy_btc": 543.811, "delta_btc": 359.928, "closed": true},
+     {"open_time_kst": "2026-11-23 11:15", "open": 60823.2, "high": 60826.8, "low": 60723.4, "close": 60744.5, "volume_btc": 225.25, "taker_buy_btc": 92.669, "delta_btc": -39.912, "closed": true},
+     {"open_time_kst": "2026-11-23 11:20", "open": 60744.5, "high": 60752.9, "low": 60681.3, "close": 60705.2, "volume_btc": 295.328, "taker_buy_btc": 139.412, "delta_btc": -16.504, "closed": true},
+     {"open_time_kst": "2026-11-23 11:25", "open": 60705.3, "high": 60756.3, "low": 60666.0, "close": 60719.2, "volume_btc": 366.053, "taker_buy_btc": 167.709, "delta_btc": -30.635, "closed": true},
+     {"open_time_kst": "2026-11-23 11:30", "open": 60719.1, "high": 60792.2, "low": 60628.3, "close": 60750.0, "volume_btc": 724.276, "taker_buy_btc": 404.83, "delta_btc": 85.384, "closed": true},
+     {"open_time_kst": "2026-11-23 11:35", "open": 60750.1, "high": 60791.4, "low": 60640.0, "close": 60643.6, "volume_btc": 792.403, "taker_buy_btc": 233.894, "delta_btc": -324.615, "closed": true},
+     {"open_time_kst": "2026-11-23 11:40", "open": 60643.5, "high": 60676.6, "low": 60351.2, "close": 60530.6, "volume_btc": 3302.977, "taker_buy_btc": 1433.728, "delta_btc": -435.521, "closed": true},
+     {"open_time_kst": "2026-11-23 11:45", "open": 60530.7, "high": 60604.2, "low": 60437.1, "close": 60437.1, "volume_btc": 952.746, "taker_buy_btc": 468.891, "delta_btc": -14.964, "closed": true},
+     {"open_time_kst": "2026-11-23 11:50", "open": 60437.2, "high": 60670.5, "low": 60430.0, "close": 60492.8, "volume_btc": 834.776, "taker_buy_btc": 449.531, "delta_btc": 64.286, "closed": true},
+     {"open_time_kst": "2026-11-23 11:55", "open": 60492.9, "high": 60600.0, "low": 60464.2, "close": 60588.1, "volume_btc": 416.915, "taker_buy_btc": 230.769, "delta_btc": 44.623, "closed": true},
+     {"open_time_kst": "2026-11-23 12:00", "open": 60588.1, "high": 60658.3, "low": 60577.1, "close": 60639.4, "volume_btc": 212.669, "taker_buy_btc": 149.069, "delta_btc": 85.469, "closed": false}
     ]
    },
    "15m": {
     "closed_candles_used": 499,
-    "last_closed": {"open_time_kst": "2026-11-23 10:45", "open": 60990.5, "high": 60990.5, "low": 60777.0, "close": 60843.9, "volume_btc": 1634.455, "delta_btc": -288.295},
+    "last_closed": {"open_time_kst": "2026-11-23 11:45", "open": 60530.7, "high": 60670.5, "low": 60430.0, "close": 60588.1, "volume_btc": 2204.437, "delta_btc": 93.945},
     "trend": "혼조",
-    "ema20": 61015.8,
-    "ema50": 60847.3,
-    "ema200": 60391.9,
-    "rsi14": 44.7,
-    "rsi14_3bars_ago": 53.1,
-    "adx14": 27.9,
-    "atr14": 252.9,
-    "atr14_pct": 0.416,
-    "volume_ratio_20": 1.01,
-    "cvd_last_12_bars_btc": -1077.0,
+    "ema20": 60896.5,
+    "ema50": 60819.7,
+    "ema200": 60403.3,
+    "rsi14": 37.9,
+    "rsi14_3bars_ago": 44.0,
+    "adx14": 24.0,
+    "atr14": 256.6,
+    "atr14_pct": 0.423,
+    "volume_ratio_20": 1.24,
+    "cvd_last_12_bars_btc": -1616.8,
     "swings": {
      "highs": [
       {"time_kst": "2026-11-23 06:15", "price": 61099.7},
@@ -788,13 +788,9 @@
       {"time_kst": "2026-11-23 07:15", "price": 60737.2}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 11:00", "high": 60888.0, "low": 60812.0, "close": 60864.4, "volume_btc": 111.263, "delta_btc": 38.667},
-    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:30", "bars_back": 2, "volume_ratio_20": 0.95, "price_change_pct": -0.11, "oi_change_pct": -0.0789},
+    "current": {"open_time_kst": "2026-11-23 12:00", "high": 60658.3, "low": 60577.1, "close": 60646.6, "volume_btc": 199.494, "delta_btc": 82.978},
+    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:45", "bars_back": 1, "volume_ratio_20": 1.24, "price_change_pct": 0.095, "oi_change_pct": -0.0548},
     "candles": [
-     {"open_time_kst": "2026-11-23 05:00", "open": 60709.1, "high": 60740.0, "low": 60680.0, "close": 60690.1, "volume_btc": 363.523, "taker_buy_btc": 131.168, "delta_btc": -101.187, "closed": true},
-     {"open_time_kst": "2026-11-23 05:15", "open": 60690.1, "high": 60690.1, "low": 60541.6, "close": 60607.0, "volume_btc": 761.948, "taker_buy_btc": 361.327, "delta_btc": -39.294, "closed": true},
-     {"open_time_kst": "2026-11-23 05:30", "open": 60607.0, "high": 60647.3, "low": 60572.1, "close": 60610.0, "volume_btc": 360.028, "taker_buy_btc": 190.095, "delta_btc": 20.162, "closed": true},
-     {"open_time_kst": "2026-11-23 05:45", "open": 60610.0, "high": 60953.9, "low": 60599.9, "close": 60887.9, "volume_btc": 2480.956, "taker_buy_btc": 1552.975, "delta_btc": 624.994, "closed": true},
      {"open_time_kst": "2026-11-23 06:00", "open": 60888.0, "high": 61080.1, "low": 60845.2, "close": 60939.2, "volume_btc": 1589.394, "taker_buy_btc": 857.372, "delta_btc": 125.35, "closed": true},
      {"open_time_kst": "2026-11-23 06:15", "open": 60939.2, "high": 61099.7, "low": 60850.0, "close": 60950.8, "volume_btc": 1394.681, "taker_buy_btc": 529.629, "delta_btc": -335.423, "closed": true},
      {"open_time_kst": "2026-11-23 06:30", "open": 60950.9, "high": 61032.2, "low": 60906.0, "close": 61028.0, "volume_btc": 607.037, "taker_buy_btc": 338.873, "delta_btc": 70.709, "closed": true},
@@ -815,23 +811,27 @@
      {"open_time_kst": "2026-11-23 10:15", "open": 61073.0, "high": 61108.0, "low": 60901.3, "close": 61057.7, "volume_btc": 1606.854, "taker_buy_btc": 772.234, "delta_btc": -62.386, "closed": true},
      {"open_time_kst": "2026-11-23 10:30", "open": 61057.6, "high": 61241.6, "low": 60970.7, "close": 60990.5, "volume_btc": 1490.854, "taker_buy_btc": 711.862, "delta_btc": -67.13, "closed": true},
      {"open_time_kst": "2026-11-23 10:45", "open": 60990.5, "high": 60990.5, "low": 60777.0, "close": 60843.9, "volume_btc": 1634.455, "taker_buy_btc": 673.08, "delta_btc": -288.295, "closed": true},
-     {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60812.0, "close": 60864.4, "volume_btc": 111.263, "taker_buy_btc": 74.965, "delta_btc": 38.667, "closed": false}
+     {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60673.9, "close": 60823.2, "volume_btc": 1734.842, "taker_buy_btc": 989.687, "delta_btc": 244.532, "closed": true},
+     {"open_time_kst": "2026-11-23 11:15", "open": 60823.2, "high": 60826.8, "low": 60666.0, "close": 60719.2, "volume_btc": 886.631, "taker_buy_btc": 399.79, "delta_btc": -87.051, "closed": true},
+     {"open_time_kst": "2026-11-23 11:30", "open": 60719.1, "high": 60792.2, "low": 60351.2, "close": 60530.6, "volume_btc": 4819.656, "taker_buy_btc": 2072.452, "delta_btc": -674.752, "closed": true},
+     {"open_time_kst": "2026-11-23 11:45", "open": 60530.7, "high": 60670.5, "low": 60430.0, "close": 60588.1, "volume_btc": 2204.437, "taker_buy_btc": 1149.191, "delta_btc": 93.945, "closed": true},
+     {"open_time_kst": "2026-11-23 12:00", "open": 60588.1, "high": 60658.3, "low": 60577.1, "close": 60646.6, "volume_btc": 199.494, "taker_buy_btc": 141.236, "delta_btc": 82.978, "closed": false}
     ]
    },
    "1h": {
     "closed_candles_used": 249,
-    "last_closed": {"open_time_kst": "2026-11-23 10:00", "open": 61315.8, "high": 61327.8, "low": 60777.0, "close": 60843.9, "volume_btc": 6929.831, "delta_btc": -590.945},
-    "trend": "상승",
-    "ema20": 60707.4,
-    "ema50": 60426.8,
-    "ema200": 62925.2,
-    "rsi14": 54.5,
-    "rsi14_3bars_ago": 60.5,
-    "adx14": 30.4,
-    "atr14": 524.9,
-    "atr14_pct": 0.863,
-    "volume_ratio_20": 0.8,
-    "cvd_last_12_bars_btc": -548.6,
+    "last_closed": {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60351.2, "close": 60588.1, "volume_btc": 9645.566, "delta_btc": -423.326},
+    "trend": "혼조",
+    "ema20": 60696.0,
+    "ema50": 60433.1,
+    "ema200": 62898.2,
+    "rsi14": 50.4,
+    "rsi14_3bars_ago": 62.3,
+    "adx14": 29.1,
+    "atr14": 525.7,
+    "atr14_pct": 0.868,
+    "volume_ratio_20": 1.13,
+    "cvd_last_12_bars_btc": -2007.1,
     "swings": {
      "highs": [
       {"time_kst": "2026-11-22 06:00", "price": 60570.1},
@@ -844,8 +844,8 @@
       {"time_kst": "2026-11-23 03:00", "price": 60511.0}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 11:00", "high": 60888.0, "low": 60812.0, "close": 60864.5, "volume_btc": 111.845, "delta_btc": 38.107},
-    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:00", "bars_back": 1, "volume_ratio_20": 0.8, "price_change_pct": -0.77, "oi_change_pct": -0.1553}
+    "current": {"open_time_kst": "2026-11-23 12:00", "high": 60658.3, "low": 60577.1, "close": 60645.2, "volume_btc": 203.579, "delta_btc": 83.147},
+    "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:00", "bars_back": 1, "volume_ratio_20": 1.13, "price_change_pct": -0.421, "oi_change_pct": -0.7084}
    },
    "4h": {
     "closed_candles_used": 249,
@@ -873,7 +873,7 @@
       {"time_kst": "2026-11-22 13:00", "price": 58746.1}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60777.0, "close": 60852.1, "volume_btc": 14123.053, "delta_btc": -1158.089},
+    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60351.2, "close": 60645.2, "volume_btc": 23844.642, "delta_btc": -1541.264},
     "short_setup": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 05:00", "bars_back": 1, "volume_ratio_20": 0.39, "price_change_pct": 0.869, "oi_change_pct": -0.5227}
    },
    "1d": {
@@ -902,7 +902,7 @@
       {"time_kst": "2026-11-15 09:00", "price": 61956.3}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60777.0, "close": 60864.5, "volume_btc": 14119.212, "delta_btc": -1155.4},
+    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60351.2, "close": 60645.2, "volume_btc": 23856.512, "delta_btc": -1533.686},
     "candles": [
      {"open_time_kst": "2026-10-24 09:00", "open": 81159.9, "high": 81190.7, "low": 79178.6, "close": 80843.7, "volume_btc": 110896.476, "taker_buy_btc": 54253.077, "delta_btc": -2390.322, "closed": true},
      {"open_time_kst": "2026-10-25 09:00", "open": 80843.7, "high": 80999.9, "low": 79809.2, "close": 80114.3, "volume_btc": 68809.674, "taker_buy_btc": 33218.308, "delta_btc": -2373.058, "closed": true},
@@ -934,7 +934,7 @@
      {"open_time_kst": "2026-11-20 09:00", "open": 61959.3, "high": 62615.4, "low": 57700.1, "close": 58915.0, "volume_btc": 411406.244, "taker_buy_btc": 199908.14, "delta_btc": -11589.964, "closed": true},
      {"open_time_kst": "2026-11-21 09:00", "open": 58915.0, "high": 60978.3, "low": 55126.7, "close": 60191.0, "volume_btc": 364783.623, "taker_buy_btc": 181568.768, "delta_btc": -1646.087, "closed": true},
      {"open_time_kst": "2026-11-22 09:00", "open": 60191.0, "high": 61647.9, "low": 58746.1, "close": 61236.9, "volume_btc": 199399.072, "taker_buy_btc": 101848.338, "delta_btc": 4297.604, "closed": true},
-     {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60777.0, "close": 60864.5, "volume_btc": 14119.212, "taker_buy_btc": 6481.906, "delta_btc": -1155.4, "closed": false}
+     {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60351.2, "close": 60645.2, "volume_btc": 23856.512, "taker_buy_btc": 11161.413, "delta_btc": -1533.686, "closed": false}
     ]
    },
    "1w": {
@@ -963,7 +963,7 @@
       {"time_kst": "2026-09-14 09:00", "price": 74909.4}
      ]
     },
-    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60777.0, "close": 60864.4, "volume_btc": 14118.63, "delta_btc": -1154.84},
+    "current": {"open_time_kst": "2026-11-23 09:00", "high": 61448.8, "low": 60351.2, "close": 60646.6, "volume_btc": 23852.427, "delta_btc": -1533.855},
     "candles": [
      {"open_time_kst": "2026-08-31 09:00", "open": 77634.6, "high": 82282.8, "low": 76151.9, "close": 80301.1, "volume_btc": 966606.715, "taker_buy_btc": 481392.601, "delta_btc": -3821.513, "closed": true},
      {"open_time_kst": "2026-09-07 09:00", "open": 80301.0, "high": 80410.8, "low": 76000.3, "close": 76805.0, "volume_btc": 835848.366, "taker_buy_btc": 407427.369, "delta_btc": -20993.628, "closed": true},
@@ -977,21 +977,20 @@
      {"open_time_kst": "2026-11-02 09:00", "open": 78313.0, "high": 81188.0, "low": 73333.0, "close": 74823.5, "volume_btc": 1020368.233, "taker_buy_btc": 508862.573, "delta_btc": -2643.087, "closed": true},
      {"open_time_kst": "2026-11-09 09:00", "open": 74823.4, "high": 75575.0, "low": 61956.3, "close": 65309.8, "volume_btc": 1431464.178, "taker_buy_btc": 697190.95, "delta_btc": -37082.278, "closed": true},
      {"open_time_kst": "2026-11-16 09:00", "open": 65309.8, "high": 65679.2, "low": 55126.7, "close": 61236.9, "volume_btc": 1827368.923, "taker_buy_btc": 904587.078, "delta_btc": -18194.767, "closed": true},
-     {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60777.0, "close": 60864.4, "volume_btc": 14118.63, "taker_buy_btc": 6481.895, "delta_btc": -1154.84, "closed": false}
+     {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60351.2, "close": 60646.6, "volume_btc": 23852.427, "taker_buy_btc": 11159.286, "delta_btc": -1533.855, "closed": false}
     ]
    }
   },
   "patterns": {
    "short_setup": {
-    "5m": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:50", "bars_back": 2, "volume_ratio_20": 0.73, "price_change_pct": -0.058, "oi_change_pct": 0.023},
-    "15m": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:30", "bars_back": 2, "volume_ratio_20": 0.95, "price_change_pct": -0.11, "oi_change_pct": -0.0789},
-    "1h": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 10:00", "bars_back": 1, "volume_ratio_20": 0.8, "price_change_pct": -0.77, "oi_change_pct": -0.1553},
+    "5m": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:55", "bars_back": 1, "volume_ratio_20": 0.6, "price_change_pct": 0.157, "oi_change_pct": -0.0111},
+    "15m": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:45", "bars_back": 1, "volume_ratio_20": 1.24, "price_change_pct": 0.095, "oi_change_pct": -0.0548},
+    "1h": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 11:00", "bars_back": 1, "volume_ratio_20": 1.13, "price_change_pct": -0.421, "oi_change_pct": -0.7084},
     "4h": {"evaluable": true, "triggered": false, "candle_open_kst": "2026-11-23 05:00", "bars_back": 1, "volume_ratio_20": 0.39, "price_change_pct": 0.869, "oi_change_pct": -0.5227}
    },
    "short_setup_rule": "volume_ratio_20>=2.0 & 종가>시가 & 같은 봉 Binance OI 감소"
   },
   "premium_index_1h": [
-   ["2026-11-22 11:00", -0.0379],
    ["2026-11-22 12:00", -0.0567],
    ["2026-11-22 13:00", -0.0374],
    ["2026-11-22 14:00", -0.047],
@@ -1015,18 +1014,18 @@
    ["2026-11-23 08:00", -0.0645],
    ["2026-11-23 09:00", -0.0082],
    ["2026-11-23 10:00", -0.0607],
-   ["2026-11-23 11:00", -0.0446]
+   ["2026-11-23 11:00", -0.0362],
+   ["2026-11-23 12:00", 0.0155]
   ],
   "basis_quarter": {
    "contract": "CURRENT_QUARTER",
-   "time_kst": "2026-11-23 10:00:00",
-   "futures_price": 61557.8,
-   "index_price": 61330.85,
-   "basis": 226.95,
-   "basis_rate_pct": 0.37,
-   "annualized_pct": 4.18,
+   "time_kst": "2026-11-23 11:00:00",
+   "futures_price": 61106.7,
+   "index_price": 60873.56,
+   "basis": 233.14,
+   "basis_rate_pct": 0.38,
+   "annualized_pct": 4.3,
    "series_24h": [
-    ["2026-11-22 11:00", 0.38],
     ["2026-11-22 12:00", 0.34],
     ["2026-11-22 13:00", 0.4],
     ["2026-11-22 14:00", 0.19],
@@ -1049,22 +1048,22 @@
     ["2026-11-23 07:00", 0.3],
     ["2026-11-23 08:00", 0.33],
     ["2026-11-23 09:00", 0.4],
-    ["2026-11-23 10:00", 0.37]
+    ["2026-11-23 10:00", 0.37],
+    ["2026-11-23 11:00", 0.38]
    ]
   },
   "orderbook": {
-   "time_kst": "2026-11-23 11:01:06",
-   "mid": 60850.05,
+   "time_kst": "2026-11-23 12:01:07",
+   "mid": 60640.85,
    "spread_bps": 0.016,
-   "covered_pct": {"bid": 0.218, "ask": 0.23},
+   "covered_pct": {"bid": 0.229, "ask": 0.22},
    "depth": {
-    "0.02%": {"bid_btc": 16.86, "ask_btc": 18.36, "imbalance": -0.043},
-    "0.05%": {"bid_btc": 83.73, "ask_btc": 79.84, "imbalance": 0.024},
-    "0.1%": {"bid_btc": 197.56, "ask_btc": 180.73, "imbalance": 0.044}
+    "0.02%": {"bid_btc": 19.65, "ask_btc": 21.42, "imbalance": -0.043},
+    "0.05%": {"bid_btc": 83.18, "ask_btc": 89.51, "imbalance": -0.037},
+    "0.1%": {"bid_btc": 201.69, "ask_btc": 230.82, "imbalance": -0.067}
    }
   },
   "candles_1h": [
-   {"open_time_kst": "2026-11-21 11:00", "open": 58996.4, "high": 59050.0, "low": 58550.9, "close": 58574.6, "volume_btc": 5816.054, "taker_buy_btc": 2423.031, "delta_btc": -969.992, "closed": true},
    {"open_time_kst": "2026-11-21 12:00", "open": 58574.6, "high": 58574.7, "low": 56333.0, "close": 56704.7, "volume_btc": 45507.656, "taker_buy_btc": 20199.97, "delta_btc": -5107.716, "closed": true},
    {"open_time_kst": "2026-11-21 13:00", "open": 56704.7, "high": 56814.6, "low": 55502.8, "close": 56268.8, "volume_btc": 45593.45, "taker_buy_btc": 22301.281, "delta_btc": -990.888, "closed": true},
    {"open_time_kst": "2026-11-21 14:00", "open": 56268.8, "high": 56477.8, "low": 55699.0, "close": 55780.0, "volume_btc": 16856.201, "taker_buy_btc": 7957.406, "delta_btc": -941.389, "closed": true},
@@ -1112,7 +1111,8 @@
    {"open_time_kst": "2026-11-23 08:00", "open": 61086.0, "high": 61373.2, "low": 60763.6, "close": 61236.9, "volume_btc": 9672.549, "taker_buy_btc": 4894.536, "delta_btc": 116.523, "closed": true},
    {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 61023.9, "close": 61315.7, "volume_btc": 7077.536, "taker_buy_btc": 3237.487, "delta_btc": -602.562, "closed": true},
    {"open_time_kst": "2026-11-23 10:00", "open": 61315.8, "high": 61327.8, "low": 60777.0, "close": 60843.9, "volume_btc": 6929.831, "taker_buy_btc": 3169.443, "delta_btc": -590.945, "closed": true},
-   {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60812.0, "close": 60864.5, "volume_btc": 111.845, "taker_buy_btc": 74.976, "delta_btc": 38.107, "closed": false}
+   {"open_time_kst": "2026-11-23 11:00", "open": 60844.1, "high": 60888.0, "low": 60351.2, "close": 60588.1, "volume_btc": 9645.566, "taker_buy_btc": 4611.12, "delta_btc": -423.326, "closed": true},
+   {"open_time_kst": "2026-11-23 12:00", "open": 60588.1, "high": 60658.3, "low": 60577.1, "close": 60645.2, "volume_btc": 203.579, "taker_buy_btc": 143.363, "delta_btc": 83.147, "closed": false}
   ],
   "candles_4h": [
    {"open_time_kst": "2026-11-16 09:00", "open": 65309.8, "high": 65365.8, "low": 64518.6, "close": 65078.5, "volume_btc": 23467.982, "taker_buy_btc": 11466.074, "delta_btc": -535.834, "closed": true},
@@ -1157,26 +1157,25 @@
    {"open_time_kst": "2026-11-22 21:00", "open": 61036.1, "high": 61647.9, "low": 60428.7, "close": 60863.3, "volume_btc": 37425.059, "taker_buy_btc": 18878.745, "delta_btc": 332.431, "closed": true},
    {"open_time_kst": "2026-11-23 01:00", "open": 60863.4, "high": 61413.0, "low": 60511.0, "close": 60709.1, "volume_btc": 21521.385, "taker_buy_btc": 10503.361, "delta_btc": -514.663, "closed": true},
    {"open_time_kst": "2026-11-23 05:00", "open": 60709.1, "high": 61373.2, "low": 60541.6, "close": 61236.9, "volume_btc": 21634.56, "taker_buy_btc": 10894.937, "delta_btc": 155.314, "closed": true},
-   {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60777.0, "close": 60852.1, "volume_btc": 14123.053, "taker_buy_btc": 6482.482, "delta_btc": -1158.089, "closed": false}
+   {"open_time_kst": "2026-11-23 09:00", "open": 61236.9, "high": 61448.8, "low": 60351.2, "close": 60645.2, "volume_btc": 23844.642, "taker_buy_btc": 11151.689, "delta_btc": -1541.264, "closed": false}
   ]
  },
  "binance_spot": {
   "market": "Binance BTCUSDT 현물",
   "price_unit": "USDT",
-  "last": 60880.85,
-  "perp_vs_spot_pct": -0.0269,
+  "last": 60660.09,
+  "perp_vs_spot_pct": -0.0168,
   "flow": {
-   "last_1h": {"closed_candles": 1, "from_kst": "2026-11-23 10:00", "to_kst": "2026-11-23 11:00", "delta_btc": -24.21, "taker_buy_ratio": 0.477, "volume_btc": 527.4},
-   "last_4h": {"closed_candles": 4, "from_kst": "2026-11-23 07:00", "to_kst": "2026-11-23 11:00", "delta_btc": 68.75, "taker_buy_ratio": 0.512, "volume_btc": 2862.69},
-   "last_24h": {"closed_candles": 24, "from_kst": "2026-11-22 11:00", "to_kst": "2026-11-23 11:00", "delta_btc": 383.56, "taker_buy_ratio": 0.5093, "volume_btc": 20618.42},
-   "current_partial": {"open_time_kst": "2026-11-23 11:00", "minutes_elapsed": 1, "delta_btc": -1.72, "taker_buy_ratio": 0.3912, "volume_btc": 7.93}
+   "last_1h": {"closed_candles": 1, "from_kst": "2026-11-23 11:00", "to_kst": "2026-11-23 12:00", "delta_btc": 5.29, "taker_buy_ratio": 0.5036, "volume_btc": 743.02},
+   "last_4h": {"closed_candles": 4, "from_kst": "2026-11-23 08:00", "to_kst": "2026-11-23 12:00", "delta_btc": 93.9, "taker_buy_ratio": 0.5155, "volume_btc": 3026.9},
+   "last_24h": {"closed_candles": 24, "from_kst": "2026-11-22 12:00", "to_kst": "2026-11-23 12:00", "delta_btc": 625.95, "taker_buy_ratio": 0.5154, "volume_btc": 20274.34},
+   "current_partial": {"open_time_kst": "2026-11-23 12:00", "minutes_elapsed": 1, "delta_btc": 1.3, "taker_buy_ratio": 0.5733, "volume_btc": 8.9}
   },
   "flow_bars": {
    "4h_x4": {"from_kst": "2026-11-22 17:00", "to_kst": "2026-11-23 09:00", "taker_buy_ratio": 0.5255, "delta_btc": 740.24},
    "1d_x4": {"from_kst": "2026-11-19 09:00", "to_kst": "2026-11-23 09:00", "taker_buy_ratio": 0.4681, "delta_btc": -8076.24}
   },
   "candles_1h": [
-   {"open_time_kst": "2026-11-22 11:00", "open": 60112.91, "high": 60186.58, "low": 59416.0, "close": 59498.58, "volume_btc": 1087.093, "taker_buy_btc": 424.994, "delta_btc": -237.106, "closed": true},
    {"open_time_kst": "2026-11-22 12:00", "open": 59498.57, "high": 59606.29, "low": 59129.99, "close": 59359.98, "volume_btc": 778.471, "taker_buy_btc": 325.867, "delta_btc": -126.736, "closed": true},
    {"open_time_kst": "2026-11-22 13:00", "open": 59359.99, "high": 59668.02, "low": 59189.22, "close": 59313.42, "volume_btc": 721.833, "taker_buy_btc": 361.812, "delta_btc": 1.791, "closed": true},
    {"open_time_kst": "2026-11-22 14:00", "open": 59313.42, "high": 59327.46, "low": 58768.51, "close": 58924.26, "volume_btc": 1039.453, "taker_buy_btc": 480.897, "delta_btc": -77.658, "closed": true},
@@ -1200,18 +1199,19 @@
    {"open_time_kst": "2026-11-23 08:00", "open": 61115.09, "high": 61407.99, "low": 60796.82, "close": 61271.08, "volume_btc": 896.726, "taker_buy_btc": 501.673, "delta_btc": 106.62, "closed": true},
    {"open_time_kst": "2026-11-23 09:00", "open": 61271.09, "high": 61464.35, "low": 61050.04, "close": 61351.33, "volume_btc": 859.762, "taker_buy_btc": 432.985, "delta_btc": 6.209, "closed": true},
    {"open_time_kst": "2026-11-23 10:00", "open": 61351.33, "high": 61357.61, "low": 60808.37, "close": 60873.2, "volume_btc": 527.397, "taker_buy_btc": 251.593, "delta_btc": -24.211, "closed": true},
-   {"open_time_kst": "2026-11-23 11:00", "open": 60873.21, "high": 60913.28, "low": 60841.63, "close": 60880.86, "volume_btc": 7.926, "taker_buy_btc": 3.101, "delta_btc": -1.725, "closed": false}
+   {"open_time_kst": "2026-11-23 11:00", "open": 60873.21, "high": 60913.29, "low": 60386.0, "close": 60615.78, "volume_btc": 743.02, "taker_buy_btc": 374.153, "delta_btc": 5.285, "closed": true},
+   {"open_time_kst": "2026-11-23 12:00", "open": 60615.78, "high": 60676.46, "low": 60603.67, "close": 60660.09, "volume_btc": 8.898, "taker_buy_btc": 5.101, "delta_btc": 1.304, "closed": false}
   ]
  },
  "bybit": {
   "contract": "Bybit BTCUSDT USDT 무기한(linear)",
   "price_unit": "USDT",
   "oi_unit": "BTC",
-  "price": {"last": 60849.3, "mark": 60851.77, "index": 60881.11, "time_kst": "2026-11-23 11:01:06", "last_index_gap_pct": -0.0522, "change_24h_pct": 1.266, "high_24h": 61640.0, "low_24h": 58715.6},
+  "price": {"last": 60637.1, "mark": 60633.71, "index": 60661.52, "time_kst": "2026-11-23 12:01:06", "last_index_gap_pct": -0.0403, "change_24h_pct": 2.005, "high_24h": 61640.0, "low_24h": 58715.6},
   "funding": {
-   "predicted": {"rate_pct": 0.001171, "settles_at_kst": "2026-11-23 17:00:00"},
+   "predicted": {"rate_pct": 0.000965, "settles_at_kst": "2026-11-23 17:00:00"},
    "interval_hours": 8.0,
-   "predicted_8h_equiv_pct": 0.001171,
+   "predicted_8h_equiv_pct": 0.000965,
    "last_settled": [
     {"time_kst": "2026-11-23 09:00:00", "rate_pct": -0.000161},
     {"time_kst": "2026-11-23 01:00:00", "rate_pct": -0.000414},
@@ -1246,65 +1246,64 @@
    "settled_30d_pct": [0.006247, -0.000669, 0.003163, 0.00619, 0.007106, 0.004759, 0.006086, 0.003118, 0.009491, 0.007759, 0.002737, 0.01, 0.009893, 0.01, 0.006973, 0.005908, 0.002206, 0.007907, 0.008374, 0.004793, 0.01, 0.008551, 0.006457, 0.008099, 0.007473, 0.005148, 0.008032, 0.00959, 0.005216, 0.009346, 0.01, 0.01, 0.00747, 0.01, 0.006259, 0.01, 0.005932, 0.01, 0.01, 0.009052, -0.000402, 0.005699, 0.007609, 0.002339, 0.006287, 0.01, 0.01, 0.008594, 0.005204, 0.007544, 0.009118, 0.007322, 0.003249, 0.004137, 0.01, 0.009946, 0.005307, 0.005439, 0.005768, 0.005822, 0.01, -0.003258, 0.004596, 0.004687, 0.000819, 0.005206, 0.005963, -0.001788, -0.001239, 0.003289, 0.000433, 0.004993, 0.006723, 0.001298, 0.004982, 0.004624, 0.002212, 0.002297, 0.003334, 0.005425, 0.00335, 0.002556, -0.000369, 0.002875, -0.004217, -0.00354, -0.001056, -0.003097, 0.001246, -0.000414, -0.000161]
   },
   "open_interest": {
-   "live_btc": 67884.609,
-   "live_time_kst": "2026-11-23 11:01:06",
-   "history_reference": {"time_kst": "2026-11-23 11:00:00", "btc": 67901.839, "usd": null},
+   "live_btc": 68078.74,
+   "live_time_kst": "2026-11-23 12:01:06",
+   "history_reference": {"time_kst": "2026-11-23 12:00:00", "btc": 68073.831, "usd": null},
    "change": {
     "15m": {
-     "from_time_kst": "2026-11-23 10:45:00",
-     "to_time_kst": "2026-11-23 11:00:00",
+     "from_time_kst": "2026-11-23 11:45:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 15,
-     "from_btc": 67950.414,
-     "to_btc": 67901.839,
-     "change_btc": -48.575,
-     "change_pct": -0.0715,
-     "price_from": 60988.6,
-     "price_to": 60844.7,
-     "price_change_pct": -0.2359,
-     "combo": "가격↓·OI↓"
+     "from_btc": 67750.947,
+     "to_btc": 68073.831,
+     "change_btc": 322.884,
+     "change_pct": 0.4766,
+     "price_from": 60526.3,
+     "price_to": 60587.0,
+     "price_change_pct": 0.1003,
+     "combo": "가격↑·OI↑"
     },
     "1h": {
-     "from_time_kst": "2026-11-23 10:00:00",
-     "to_time_kst": "2026-11-23 11:00:00",
+     "from_time_kst": "2026-11-23 11:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 60,
-     "from_btc": 67839.645,
-     "to_btc": 67901.839,
-     "change_btc": 62.194,
-     "change_pct": 0.0917,
-     "price_from": 61319.2,
-     "price_to": 60844.7,
-     "price_change_pct": -0.7738,
+     "from_btc": 67901.839,
+     "to_btc": 68073.831,
+     "change_btc": 171.992,
+     "change_pct": 0.2533,
+     "price_from": 60844.7,
+     "price_to": 60587.0,
+     "price_change_pct": -0.4235,
      "combo": "가격↓·OI↑"
     },
     "4h": {
-     "from_time_kst": "2026-11-23 07:00:00",
-     "to_time_kst": "2026-11-23 11:00:00",
+     "from_time_kst": "2026-11-23 08:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 240,
-     "from_btc": 67830.856,
-     "to_btc": 67901.839,
-     "change_btc": 70.983,
-     "change_pct": 0.1046,
-     "price_from": 60923.7,
-     "price_to": 60844.7,
-     "price_change_pct": -0.1297,
+     "from_btc": 67881.285,
+     "to_btc": 68073.831,
+     "change_btc": 192.546,
+     "change_pct": 0.2837,
+     "price_from": 61088.6,
+     "price_to": 60587.0,
+     "price_change_pct": -0.8211,
      "combo": "가격↓·OI↑"
     },
     "24h": {
-     "from_time_kst": "2026-11-22 11:00:00",
-     "to_time_kst": "2026-11-23 11:00:00",
+     "from_time_kst": "2026-11-22 12:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 1440,
-     "from_btc": 67931.623,
-     "to_btc": 67901.839,
-     "change_btc": -29.784,
-     "change_pct": -0.0438,
-     "price_from": 60088.6,
-     "price_to": 60844.7,
-     "price_change_pct": 1.2583,
+     "from_btc": 68616.904,
+     "to_btc": 68073.831,
+     "change_btc": -543.073,
+     "change_pct": -0.7915,
+     "price_from": 59468.7,
+     "price_to": 60587.0,
+     "price_change_pct": 1.8805,
      "combo": "가격↑·OI↓"
     }
    },
    "series_1h": [
-    ["2026-11-22 12:00", 68616.9],
     ["2026-11-22 13:00", 68838.7],
     ["2026-11-22 14:00", 69704.3],
     ["2026-11-22 15:00", 70867.3],
@@ -1327,7 +1326,8 @@
     ["2026-11-23 08:00", 67881.3],
     ["2026-11-23 09:00", 67983.7],
     ["2026-11-23 10:00", 67839.6],
-    ["2026-11-23 11:00", 67901.8]
+    ["2026-11-23 11:00", 67901.8],
+    ["2026-11-23 12:00", 68073.8]
    ],
    "series_1d": [
     ["2026-10-25 09:00", 63961.8],
@@ -1366,12 +1366,11 @@
    "account": {
     "basis": "계정 수 기준",
     "period": "1h",
-    "time_kst": "2026-11-23 11:00:00",
-    "long_pct": 69.15,
-    "short_pct": 30.85,
-    "ratio": 2.2415,
+    "time_kst": "2026-11-23 12:00:00",
+    "long_pct": 68.88,
+    "short_pct": 31.12,
+    "ratio": 2.2134,
     "series_24h": [
-     ["2026-11-22 12:00", 2.2415, 69.15],
      ["2026-11-22 13:00", 2.2134, 68.88],
      ["2026-11-22 14:00", 2.231, 69.05],
      ["2026-11-22 15:00", 2.1959, 68.71],
@@ -1394,7 +1393,8 @@
      ["2026-11-23 08:00", 2.2765, 69.48],
      ["2026-11-23 09:00", 2.2938, 69.64],
      ["2026-11-23 10:00", 2.269, 69.41],
-     ["2026-11-23 11:00", 2.2415, 69.15]
+     ["2026-11-23 11:00", 2.2415, 69.15],
+     ["2026-11-23 12:00", 2.2134, 68.88]
     ]
    }
   }
@@ -1403,11 +1403,11 @@
   "contract": "OKX BTC-USDT-SWAP USDT 무기한",
   "price_unit": "USDT",
   "oi_unit": "BTC",
-  "price": {"last": 60854.9, "last_time_kst": "2026-11-23 11:01:06", "mark": 60855.4, "index": 60882.3, "last_index_gap_pct": -0.045, "change_24h_pct": 1.183, "high_24h": 61644.9, "low_24h": 58731.0},
+  "price": {"last": 60637.8, "last_time_kst": "2026-11-23 12:01:07", "mark": 60635.4, "index": 60660.2, "last_index_gap_pct": -0.0369, "change_24h_pct": 1.947, "high_24h": 61644.9, "low_24h": 58731.0},
   "funding": {
-   "predicted": {"rate_pct": 0.001232, "settles_at_kst": "2026-11-23 17:00:00"},
+   "predicted": {"rate_pct": 0.001709, "settles_at_kst": "2026-11-23 17:00:00"},
    "interval_hours": 8.0,
-   "predicted_8h_equiv_pct": 0.001232,
+   "predicted_8h_equiv_pct": 0.001709,
    "last_settled": [
     {"time_kst": "2026-11-23 09:00:00", "rate_pct": 0.001516},
     {"time_kst": "2026-11-23 01:00:00", "rate_pct": 0.002278},
@@ -1442,61 +1442,61 @@
    "settled_30d_pct": [0.01, 0.0049, 0.004791, 0.002189, 0.009439, 0.005557, 0.006976, 0.009781, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.006561, 0.01, 0.00338, 0.009579, 0.01, 0.005493, 0.01, 0.01, 0.01, 0.01, 0.01, 0.00679, 0.009548, 0.01, 0.008593, 0.01, 0.01, 0.01, 0.01, 0.01, 0.008755, 0.01, 0.007483, 0.01, 0.01, 0.002779, 0.002657, 0.004107, 0.006414, -0.000377, 0.006508, 0.00914, 0.003358, 0.00128, 0.0021, 0.009615, 0.005649, 0.004632, 0.01, 0.004841, 0.01, 0.009378, 0.004631, 0.006103, 0.009241, 0.007369, 0.01, -0.00642, 0.003817, 0.003939, -0.000947, 0.004654, -0.003787, -5e-05, 0.001178, -0.001304, -0.000485, 0.006149, 0.004489, 0.001425, -0.000698, -0.001089, 0.002392, 0.006348, -0.00098, -0.000553, -0.001786, -0.001562, -0.003533, 0.00384, -0.005947, -0.004639, 9.6e-05, -0.003769, 0.003405, 0.002278, 0.001516]
   },
   "open_interest": {
-   "live_btc": 31701.708,
-   "live_time_kst": "2026-11-23 11:01:07",
-   "history_reference": {"time_kst": "2026-11-23 10:55:00", "btc": 31689.138, "usd": 1926818382.0},
+   "live_btc": 31679.598,
+   "live_time_kst": "2026-11-23 12:01:07",
+   "history_reference": {"time_kst": "2026-11-23 12:00:00", "btc": 31675.481, "usd": 1918944991.0},
    "change": {
     "15m": {
-     "from_time_kst": "2026-11-23 10:40:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 11:45:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 15,
-     "from_btc": 31706.497,
-     "to_btc": 31689.138,
-     "change_btc": -17.359,
-     "change_pct": -0.0547,
-     "price_from": 61028.1,
-     "price_to": 60834.1,
-     "price_change_pct": -0.3179,
-     "combo": "가격↓·OI↓"
+     "from_btc": 31664.49,
+     "to_btc": 31675.481,
+     "change_btc": 10.991,
+     "change_pct": 0.0347,
+     "price_from": 60527.6,
+     "price_to": 60583.0,
+     "price_change_pct": 0.0915,
+     "combo": "가격↑·OI↑"
     },
     "1h": {
-     "from_time_kst": "2026-11-23 09:55:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 11:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 60,
-     "from_btc": 31721.869,
-     "to_btc": 31689.138,
-     "change_btc": -32.731,
-     "change_pct": -0.1032,
-     "price_from": 61181.5,
-     "price_to": 60834.1,
-     "price_change_pct": -0.5678,
+     "from_btc": 31715.268,
+     "to_btc": 31675.481,
+     "change_btc": -39.787,
+     "change_pct": -0.1255,
+     "price_from": 60845.9,
+     "price_to": 60583.0,
+     "price_change_pct": -0.4321,
      "combo": "가격↓·OI↓"
     },
     "4h": {
-     "from_time_kst": "2026-11-23 06:55:00",
-     "to_time_kst": "2026-11-23 10:55:00",
+     "from_time_kst": "2026-11-23 08:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
      "span_minutes": 240,
-     "from_btc": 31481.878,
-     "to_btc": 31689.138,
-     "change_btc": 207.26,
-     "change_pct": 0.6583,
-     "price_from": 60911.4,
-     "price_to": 60834.1,
-     "price_change_pct": -0.1269,
-     "combo": "가격↓·OI↑"
+     "from_btc": 31725.142,
+     "to_btc": 31675.481,
+     "change_btc": -49.661,
+     "change_pct": -0.1565,
+     "price_from": 61081.5,
+     "price_to": 60583.0,
+     "price_change_pct": -0.8161,
+     "combo": "가격↓·OI↓"
     },
     "24h": {
-     "from_time_kst": "2026-11-22 11:00:00",
-     "to_time_kst": "2026-11-23 10:55:00",
-     "span_minutes": 1435,
-     "from_btc": 31547.961,
-     "to_btc": 31689.138,
-     "change_btc": 141.177,
-     "change_pct": 0.4475,
-     "price_from": 60083.3,
-     "price_to": 60834.1,
-     "price_change_pct": 1.2496,
-     "combo": "가격↑·OI↑"
+     "from_time_kst": "2026-11-22 12:00:00",
+     "to_time_kst": "2026-11-23 12:00:00",
+     "span_minutes": 1440,
+     "from_btc": 31702.545,
+     "to_btc": 31675.481,
+     "change_btc": -27.064,
+     "change_pct": -0.0854,
+     "price_from": 59471.4,
+     "price_to": 60583.0,
+     "price_change_pct": 1.8691,
+     "combo": "가격↑·OI↓"
     }
    },
    "series_1h": [
@@ -1523,7 +1523,7 @@
     ["2026-11-23 08:00", 31814.3],
     ["2026-11-23 09:00", 31721.9],
     ["2026-11-23 10:00", 31700.8],
-    ["2026-11-23 11:00", 31700.8]
+    ["2026-11-23 11:00", 31679.7]
    ],
    "series_1d": [
     ["2026-10-25 01:00", 30090.4],
@@ -1555,19 +1555,18 @@
     ["2026-11-20 01:00", 34566.9],
     ["2026-11-21 01:00", 32103.4],
     ["2026-11-22 01:00", 32040.0],
-    ["2026-11-23 01:00", 31700.8]
+    ["2026-11-23 01:00", 31675.5]
    ]
   },
   "long_short": {
    "account": {
     "basis": "계정 수 기준",
     "period": "1h",
-    "time_kst": "2026-11-23 11:00:00",
-    "long_pct": 66.47,
-    "short_pct": 33.53,
-    "ratio": 1.9824,
+    "time_kst": "2026-11-23 12:00:00",
+    "long_pct": 66.1,
+    "short_pct": 33.9,
+    "ratio": 1.9502,
     "series_24h": [
-     ["2026-11-22 12:00", 1.8199, 64.54],
      ["2026-11-22 13:00", 1.8749, 65.22],
      ["2026-11-22 14:00", 1.8597, 65.03],
      ["2026-11-22 15:00", 1.9608, 66.23],
@@ -1590,19 +1589,19 @@
      ["2026-11-23 08:00", 2.0394, 67.1],
      ["2026-11-23 09:00", 2.0113, 66.79],
      ["2026-11-23 10:00", 1.9839, 66.49],
-     ["2026-11-23 11:00", 1.9824, 66.47]
+     ["2026-11-23 11:00", 1.9449, 66.04],
+     ["2026-11-23 12:00", 1.9502, 66.1]
     ]
    }
   }
  },
  "market_context": {
   "coinbase_premium": {
-   "coinbase_last_usd": 60779.69,
-   "binance_spot_last_usdt": 60880.85,
-   "premium_pct": -0.1662,
-   "time_kst": "2026-11-23 11:01:06",
+   "coinbase_last_usd": 60561.36,
+   "binance_spot_last_usdt": 60660.09,
+   "premium_pct": -0.1628,
+   "time_kst": "2026-11-23 12:01:06",
    "series_1h": [
-    ["2026-11-22 11:00", -0.2446],
     ["2026-11-22 12:00", -0.2258],
     ["2026-11-22 13:00", -0.2223],
     ["2026-11-22 14:00", -0.2316],
@@ -1625,21 +1624,21 @@
     ["2026-11-23 07:00", -0.1854],
     ["2026-11-23 08:00", -0.1764],
     ["2026-11-23 09:00", -0.1667],
-    ["2026-11-23 10:00", -0.1981]
+    ["2026-11-23 10:00", -0.1734],
+    ["2026-11-23 11:00", -0.2991]
    ]
   },
   "coinbase_adjusted": {
    "basis": "USDT 보정, 완성 1시간봉 종가",
-   "last_hour_kst": "2026-11-23 10:00",
-   "usdt_usd": 0.99832,
-   "v1h_pct": -0.0301,
-   "avg4h_pct": -0.0114,
-   "avg24h_pct": -0.0066,
-   "avg4h_24h_ago_pct": -0.006,
-   "avg4h_pct_30d": 34.4,
+   "last_hour_kst": "2026-11-23 11:00",
+   "usdt_usd": 0.9984,
+   "v1h_pct": -0.1393,
+   "avg4h_pct": -0.0387,
+   "avg24h_pct": -0.011,
+   "avg4h_24h_ago_pct": -0.0079,
+   "avg4h_pct_30d": 9.2,
    "hours_used": 897,
    "series_1h": [
-    ["2026-11-22 11:00", -0.0076],
     ["2026-11-22 12:00", -0.0088],
     ["2026-11-22 13:00", -0.0063],
     ["2026-11-22 14:00", -0.0147],
@@ -1662,7 +1661,8 @@
     ["2026-11-23 07:00", -0.0054],
     ["2026-11-23 08:00", -0.0054],
     ["2026-11-23 09:00", -0.0047],
-    ["2026-11-23 10:00", -0.0301]
+    ["2026-11-23 10:00", -0.0054],
+    ["2026-11-23 11:00", -0.1393]
    ]
   },
   "fear_greed": {
@@ -1680,7 +1680,7 @@
     ["2026-11-23", 11]
    ]
   },
-  "dvol": {"value": 54.57, "time_kst": "2026-11-23 11:00:00", "value_24h_ago": 58.6, "change_24h": -4.03}
+  "dvol": {"value": 54.64, "time_kst": "2026-11-23 12:00:00", "value_24h_ago": 58.61, "change_24h": -3.97}
  },
  "errors": []
 }
